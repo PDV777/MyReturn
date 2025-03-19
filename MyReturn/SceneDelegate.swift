@@ -1,4 +1,4 @@
-import UIKit
+import UIKit// проверка
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
