@@ -1,13 +1,7 @@
-//
-//  AppDelegate.swift
-//  MyReturn
-//
-//  Created by Dmitry on 06.03.2025.
-//
-
 import UIKit
 
 @main
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
