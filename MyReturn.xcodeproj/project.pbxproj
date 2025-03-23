@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0A2169D52D8AB4D000D6B01E /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2169D42D8AB4D000D6B01E /* DateFormatter.swift */; };
+		0A2169D72D8B0D6400D6B01E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2169D62D8B0D6400D6B01E /* ProfileViewController.swift */; };
+		0A2169D92D8C4EDF00D6B01E /* SingleImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2169D82D8C4EDF00D6B01E /* SingleImageViewController.swift */; };
 		0A44A1232D79C310007368B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44A1222D79C310007368B1 /* AppDelegate.swift */; };
 		0A44A1252D79C310007368B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44A1242D79C310007368B1 /* SceneDelegate.swift */; };
 		0A44A1272D79C310007368B1 /* ImagesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44A1262D79C310007368B1 /* ImagesListViewController.swift */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		0A2169D42D8AB4D000D6B01E /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		0A2169D62D8B0D6400D6B01E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0A2169D82D8C4EDF00D6B01E /* SingleImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageViewController.swift; sourceTree = "<group>"; };
 		0A44A11F2D79C310007368B1 /* MyReturn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyReturn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A44A1222D79C310007368B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A44A1242D79C310007368B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 		0A44A1212D79C310007368B1 /* MyReturn */ = {
 			isa = PBXGroup;
 			children = (
+				0A2169D62D8B0D6400D6B01E /* ProfileViewController.swift */,
+				0A2169D82D8C4EDF00D6B01E /* SingleImageViewController.swift */,
 				0A44A1222D79C310007368B1 /* AppDelegate.swift */,
 				0A44A1242D79C310007368B1 /* SceneDelegate.swift */,
 				0A2169D42D8AB4D000D6B01E /* DateFormatter.swift */,
@@ -152,8 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A2169D72D8B0D6400D6B01E /* ProfileViewController.swift in Sources */,
 				0A2169D52D8AB4D000D6B01E /* DateFormatter.swift in Sources */,
 				0A44A1272D79C310007368B1 /* ImagesListViewController.swift in Sources */,
+				0A2169D92D8C4EDF00D6B01E /* SingleImageViewController.swift in Sources */,
 				0A44A1572D8429F8007368B1 /* ImagesListCell.swift in Sources */,
 				0A44A1232D79C310007368B1 /* AppDelegate.swift in Sources */,
 				0A44A1252D79C310007368B1 /* SceneDelegate.swift in Sources */,
